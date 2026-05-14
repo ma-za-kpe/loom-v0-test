@@ -1,0 +1,14 @@
+schema_version: 1.0.0
+resolved_at: "2026-05-14T17:36:20Z"
+resolver_version: loom-runner@0.1.0
+threads:
+    - thread: stripe-shim
+      resolved_version: 1.2.1
+      manifest_hash: sha256:f6c91b2088eb5190302454903bf31419c32335eb31c85d578bd5b99738141754
+      artifact_hashes:
+        cyclonedx-json: ""
+        npm: ""
+signature:
+  algorithm: "ed25519"
+  bundle: "xuY6lFrtsRHlfUkdgMXE9MUMqwSl6DV/sF1zzFU+Xn9kW79teVJuayhXunwIFQF8n7PsoB00ggsjagGBPC0KDA=="
+  signer_identity: "ed25519:btBZhJsC2c/ds53o6UyjKuenegpW2qGKUJ4/nvgeLM8="
