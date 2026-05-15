@@ -1,0 +1,9 @@
+{
+  "name": "loom-v0-test",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@loom/stripe-shim": "1.2.1",
+    "@loom/auth-core": "2.1.0"
+  }
+}

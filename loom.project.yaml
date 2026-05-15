@@ -1,0 +1,8 @@
+schema_version: "1.0.0"
+project:
+  name: loom-v0-test
+threads:
+  - thread: stripe-shim
+    version: "1.2.1"
+  - thread: auth-core
+    version: "2.1.0"
