@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@loom/auth-core": "2.1.0",
+    "@loom/stripe-shim": "1.2.1",
+    "@loom/webhook-verifier": "1.0.0"
+  },
+  "name": "loom-v0-test",
+  "private": true,
+  "version": "1.0.0"
+}
