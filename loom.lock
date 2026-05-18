@@ -14,5 +14,5 @@ threads:
       npm: "sha256:b204e15349eaddf34b8b943f5df94f35646f7e58f1fb543f3553bff7596ea046"
 signature:
   algorithm: "ed25519"
-  bundle: "2QyQKboj8PomQS6NOE6QLsEG/wEc2O7M1rGAxXR9DkXIWZmTxqjK9vUz3avm+9Vgzi2uDa1TxAf2SSKZedVvDQ=="
+  bundle: "Qcx6a0gN3mx+nPNyayYUP/Ark7VeiWIFvH9Sue6wKhSLEUH5f6AhH1xatw+nsmD6AMpP9Rh/u+1P3Lw0xEfoDA=="
   signer_identity: "ed25519:4Zl0L+KvTW3uvfbDrZYcdCuYzJ8d/fj1vSQdxgwxrfg="
