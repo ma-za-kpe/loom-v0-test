@@ -1,18 +1,19 @@
-schema_version: "1.0.0"
-resolved_at: "2026-05-15T08:00:00Z"
-resolver_version: "loom-runner@0.1.0"
+schema_version: 1.0.0
+resolved_at: "2026-05-18T11:42:18Z"
+resolver_version: loom-runner@0.1.0
 threads:
-  - thread: stripe-shim
-    resolved_version: "1.2.1"
-    manifest_hash: "sha256:a104d05249dadde24a7a843f4de84f24535f6e47f0fa432e2442aff6485d935a"
-    artifact_hashes:
-      npm: "sha256:a104d05249dadde24a7a843f4de84f24535f6e47f0fa432e2442aff6485d935a"
-  - thread: auth-core
-    resolved_version: "2.1.0"
-    manifest_hash: "sha256:b204e15349eaddf34b8b943f5df94f35646f7e58f1fb543f3553bff7596ea046"
-    artifact_hashes:
-      npm: "sha256:b204e15349eaddf34b8b943f5df94f35646f7e58f1fb543f3553bff7596ea046"
+    - thread: stripe-shim
+      resolved_version: 1.2.2
+      manifest_hash: sha256:2a59f5b9aa5711d23e98562b5ce078ca0d754a3566d94994ca6884ea479101dc
+      artifact_hashes:
+        cyclonedx-json: sha256:f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2
+        npm: sha256:63ae945b023de7a4fa44f508f8c5a8c8e74da3ba2789a82dc444dae6a7890862
+    - thread: auth-core
+      resolved_version: 2.1.0
+      manifest_hash: sha256:b204e15349eaddf34b8b943f5df94f35646f7e58f1fb543f3553bff7596ea046
+      artifact_hashes:
+        npm: sha256:b204e15349eaddf34b8b943f5df94f35646f7e58f1fb543f3553bff7596ea046
 signature:
   algorithm: "ed25519"
-  bundle: "2QyQKboj8PomQS6NOE6QLsEG/wEc2O7M1rGAxXR9DkXIWZmTxqjK9vUz3avm+9Vgzi2uDa1TxAf2SSKZedVvDQ=="
+  bundle: "16XLfnZhqslOuKgWacw9nhID1/6j9Y5y6qvedoRiu/+154Sg7MC5pETSYWKVWWrAZdo6zdhTJUBP9x45ErqpAQ=="
   signer_identity: "ed25519:4Zl0L+KvTW3uvfbDrZYcdCuYzJ8d/fj1vSQdxgwxrfg="
