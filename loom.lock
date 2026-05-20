@@ -1,5 +1,5 @@
 schema_version: 1.0.0
-resolved_at: "2026-05-18T16:47:34Z"
+resolved_at: "2026-05-20T21:27:15Z"
 resolver_version: loom-runner@0.1.0
 threads:
     - thread: stripe-shim
@@ -15,5 +15,5 @@ threads:
         npm: sha256:c305f26450fbeeda5c9c054f6ef05f46757f8f69f2ac654f4664caa8607fb157
 signature:
   algorithm: "ed25519"
-  bundle: "HSRh3YbwnD25FS1Q0Q7ycGTWAr7bEFtCV4NQsWyyuRbfx1sLAMrFXck2M1gZhTsdJ9qbQ9QjNreqXsxJ59sNBw=="
-  signer_identity: "ed25519:NNOu2XIjgI8QP2PhqhwJ7a8F0IJkvduG7xB540bisrM="
+  bundle: "QSzJJefTOHOMZEnJlK88/ZewCb7GgCoUlzSgWuzSzGnTvK6GerM11iYArR1o9kfv/6QU0ttRxX4mxsCCjVZ7Dg=="
+  signer_identity: "ed25519:4Zl0L+KvTW3uvfbDrZYcdCuYzJ8d/fj1vSQdxgwxrfg="
