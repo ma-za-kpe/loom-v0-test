@@ -1,0 +1,10 @@
+{
+  "signature": "fNZe2xe6dcxsyXOdrJgbVlUtD6eJ4jeZAPtNhZDJP9EjmzU0tULor94Uxr6FjFpUMN+Wujh0Kk7MwG4Ov24rCw==",
+  "certificate": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAPFh38KEjy05uPji4PUrm76aZt2Z0z20qjP0yP69LjzQ=\n-----END PUBLIC KEY-----\n",
+  "rekorLogEntry": {
+    "logIndex": 0,
+    "integratedTime": 1779289590,
+    "logID": "local-publish",
+    "body": "fNZe2xe6dcxsyXOdrJgbVlUtD6eJ4jeZAPtNhZDJP9EjmzU0tULor94Uxr6FjFpUMN+Wujh0Kk7MwG4Ov24rCw=="
+  }
+}
