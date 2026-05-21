@@ -6,14 +6,16 @@
   "type": "module",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "npx tsc",
     "start": "node dist/server.js",
     "dev": "npx tsx src/server.ts",
     "test": "vitest run",
     "test:watch": "vitest"
   },
   "dependencies": {
-    "@loom/stripe-shim": "1.2.2"
+    "@loom/auth-core": "file:packages/loom-auth-core-2.1.3.tgz",
+    "@loom/stripe-shim": "file:packages/loom-stripe-shim-1.2.2.tgz",
+    "@loom/webhook-verifier": "file:packages/loom-webhook-verifier-1.0.0.tgz"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",
