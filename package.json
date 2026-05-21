@@ -1,10 +1,21 @@
 {
-  "name": "acme-billing-service",
-  "version": "1.0.0",
+  "dependencies": {
+    "@loom/auth-core": "2.1.3",
+    "@loom/stripe-shim": "file:packages/loom-stripe-shim-1.2.2.tgz",
+    "@loom/webhook-verifier": "file:packages/loom-webhook-verifier-1.0.0.tgz"
+  },
   "description": "Acme Corp billing service — test repo for Loom V0 E2E workflow",
-  "private": true,
-  "type": "module",
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.8.0",
+    "vitest": "^3.1.0"
+  },
+  "engines": {
+    "node": "\u003e=22.0.0"
+  },
   "main": "dist/index.js",
+  "name": "acme-billing-service",
+  "private": true,
   "scripts": {
     "build": "npx tsc",
     "start": "node dist/server.js",
@@ -12,17 +23,6 @@
     "test": "vitest run",
     "test:watch": "vitest"
   },
-  "dependencies": {
-    "@loom/auth-core": "file:packages/loom-auth-core-2.1.3.tgz",
-    "@loom/stripe-shim": "file:packages/loom-stripe-shim-1.2.2.tgz",
-    "@loom/webhook-verifier": "file:packages/loom-webhook-verifier-1.0.0.tgz"
-  },
-  "devDependencies": {
-    "@types/node": "^22.0.0",
-    "typescript": "^5.8.0",
-    "vitest": "^3.1.0"
-  },
-  "engines": {
-    "node": ">=22.0.0"
-  }
+  "type": "module",
+  "version": "1.0.0"
 }
