@@ -1,13 +1,13 @@
 schema_version: 1.0.0
-resolved_at: "2026-05-21T22:22:32Z"
+resolved_at: "2026-05-22T19:42:40Z"
 resolver_version: loom-runner@0.1.0
 threads:
     - thread: stripe-shim
-      resolved_version: 1.2.2
-      manifest_hash: sha256:ad941cd0b5bc9c1a663d596acae1a5d09a8739a98cc1276f3ee5972a78635968
+      resolved_version: 1.2.1
+      manifest_hash: sha256:de6b91fedf891ed89d3abfe1544c475ae2948f93295f10e547e0d0e8e198fd94
       artifact_hashes:
-        cyclonedx-json: sha256:3fae3b14748e66f57aa9aa040fa297d73f8c13eaff110761be0db579e7ea622a
-        npm: sha256:3fae3b14748e66f57aa9aa040fa297d73f8c13eaff110761be0db579e7ea622a
+        cyclonedx-json: sha256:9e5d487e2f9dd275d3055b139c23e58ba3236d29e19970e437411ec2388efc42
+        npm: sha256:a104d05249dadde24a7a843f4de84f24535f6e47f0fa432e2442aff6485d935a
     - thread: auth-core
       resolved_version: 2.1.3
       manifest_hash: sha256:870ba7a2f76ea6753a448f318e04ef93fd6baba3aabe0a7d49d01f7f0d6e9992
@@ -22,5 +22,5 @@ threads:
         npm: sha256:a9358f26b20e49d384c4c248b86f91a5ac01f00b66cbbaa98a00a674e9cb5870
 signature:
   algorithm: "ed25519"
-  bundle: "KkIhfQeRG/eMpnqIbmbjEPbC4rVyEmdOq8ls+90A2cKkKBX2b+YJPrhfLJSZ5JQeb8OkVmxCtIFOjd7kPb4wDQ=="
-  signer_identity: "ed25519:2KelQP9YapuFgvMAKXd5PKuw7jCzEXJShhaCPOX9fyM="
+  bundle: "bhohNE9CucvqI3cSsJeqeUWmpzhxm/HmdGIXui5urcwEDCVtNCj4blwYRuRpaUmJJgV309SQrgTjPe3usI+7BA=="
+  signer_identity: "ed25519:4Zl0L+KvTW3uvfbDrZYcdCuYzJ8d/fj1vSQdxgwxrfg="
